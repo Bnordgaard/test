@@ -1,1 +1,1 @@
-Test for scritp funksjoner
+Test for script functions
