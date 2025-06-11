@@ -1,0 +1,15 @@
+import matplotlib.pyplot as plt
+
+def plot_results(x, y, sum_result, product_result):
+    fig, ax = plt.subplots(1, 2, figsize=(10, 5))
+
+    # Plot sum
+    ax[0].bar(['Sum'], [sum_result])
+    ax[0].set_title('Sum of x and y')
+
+    # Plot product
+    ax[1].bar(['Product'], [product_result])
+    ax[1].set_title('Product of x and y')
+
+    plt.tight_layout()
+    return fig
